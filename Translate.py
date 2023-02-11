@@ -106,7 +106,7 @@ The weather is very sunny today.
     #print "%s \n \n%s" %(exampletext, output)
 
     while True:
-        a = raw_input(":")
+        a = input(":")
         output = translator.translateSentence(a)
         print output + '\n'
 
